@@ -1,5 +1,5 @@
 import profile from "../assets/profile.jpeg";
-import cv from "../assets/Varshita_Tawade_CV.pdf";
+import cv from "../assets/Varshita_Tawade_cv.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
