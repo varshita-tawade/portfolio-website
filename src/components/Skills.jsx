@@ -1,42 +1,67 @@
+import { motion } from "framer-motion";
+
 function Skills() {
+const skills = [
+"React.js",
+"JavaScript",
+"HTML5",
+"CSS3",
+"Tailwind CSS",
+"Bootstrap",
+"Redux Toolkit",
+"Context API",
+"REST APIs",
+"Git",
+"GitHub",
+"Vite",
+"Responsive Design",
+"SEO",
+"Agile"
+];
 
-  const skills = [
-    "React.js",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Tailwind CSS",
-    "Bootstrap",
-    "Redux Toolkit",
-    "Context API",
-    "REST APIs",
-    "Git",
-    "GitHub",
-    "Vite",
-    "Responsive Design",
-    "SEO",
-    "Agile"
-  ];
+return ( <section id="skills" className="section">
 
-  return (
-    <section id="skills" className="section">
 
-      <h2 className="section-title">
-        Technical Skills
-      </h2>
+  <motion.h2
+    className="section-title"
+    initial={{ opacity: 0, y: -30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: false }}
+  >
+    Technical Skills
+  </motion.h2>
 
-      <div className="skills-grid">
+  <motion.p
+    className="skills-subtitle"
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: false }}
+  >
+    Technologies and tools I use to build modern web applications.
+  </motion.p>
 
-        {skills.map((skill, index) => (
-          <div key={index} className="skill-card">
-            {skill}
-          </div>
-        ))}
+  <div className="skills-wrapper">
+    {skills.map((skill, index) => (
+      <motion.div
+        key={index}
+        className="skill-pill"
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.3,
+          delay: index * 0.04
+        }}
+        viewport={{ once: false }}
+      >
+        {skill}
+      </motion.div>
+    ))}
+  </div>
 
-      </div>
+</section>
 
-    </section>
-  );
+
+);
 }
 
 export default Skills;
