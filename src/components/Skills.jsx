@@ -3,7 +3,6 @@ function Skills() {
   const skills = [
     "React.js",
     "JavaScript",
-    "TypeScript",
     "HTML5",
     "CSS3",
     "Tailwind CSS",

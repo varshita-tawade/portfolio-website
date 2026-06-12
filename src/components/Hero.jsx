@@ -20,12 +20,8 @@ function Hero() {
         </h2>
 
         <p className="hero-description">
-          Motivated Frontend Developer and B.Sc Computer Science Graduate
-          with hands-on experience in React.js, JavaScript, HTML5, CSS3,
-          Redux Toolkit and REST API Integration.
-
-          Passionate about building responsive, scalable and modern
-          web applications.
+         Building modern, responsive, and user-centric web applications using React.js, JavaScript, HTML, and CSS. 
+         Passionate about clean design, seamless user experiences, and continuous learning in web development.
         </p>
 
         <div className="hero-buttons">
