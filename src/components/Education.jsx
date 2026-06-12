@@ -5,7 +5,7 @@ function Education() {
       year: "2026",
       degree: "B.Sc Computer Science",
       college: "Mumbai University",
-      score: "CGPA : 7.43 | SGPA : 8.95"
+     
     },
     {
       year: "2023",

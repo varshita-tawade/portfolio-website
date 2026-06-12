@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.jpeg";
 import cv from "../assets/Varshita_Tawade_CV.pdf";
 
 function Hero() {
@@ -38,23 +38,7 @@ function Hero() {
             Download CV
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/varshita-tawade-139b23392/"
-            target="_blank"
-            rel="noreferrer"
-            className="btn-outline"
-          >
-            LinkedIn
-          </a>
-
-          <a
-            href="https://github.com/varshita-tawade"
-            target="_blank"
-            rel="noreferrer"
-            className="btn-outline"
-          >
-            GitHub
-          </a>
+          
 
         </div>
 
